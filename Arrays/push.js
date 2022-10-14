@@ -9,3 +9,9 @@ arr.push(Math.floor(Math.random()*1000))
 
 //Con el console.log comprobaremos si lo hicimos correctamente
 console.log(arr)
+
+//Si queremos ahorrar tiempo o si tenemos que añadir muchos elementos podemos 
+//hacer uso de un bucle
+for(let i=0; i<2; i++){
+    arr.push(Math.floor(Math.random()*1000))
+}
